@@ -1,0 +1,3 @@
+[build]
+command = "npm install && npm run build"
+publish = "dist"  # Adjust this if your build output directory is different
