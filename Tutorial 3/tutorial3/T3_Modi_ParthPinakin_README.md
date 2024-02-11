@@ -1,6 +1,6 @@
 # Tutorial 3
 
-- Netlify deployment:
+- Netlify deployment: https://main--adorable-cannoli-e63ed0.netlify.app/
 - Tutorials repository GitLab: https://git.cs.dal.ca/ppmodi/csci_5709_Tutorials
 - Tutorial 3:
 
