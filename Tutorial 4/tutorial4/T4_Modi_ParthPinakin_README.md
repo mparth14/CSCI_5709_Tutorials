@@ -1,6 +1,6 @@
 # Tutorial 4
 
-- Netlify deployment:
+- Netlify deployment: https://main--5709tutorial4.netlify.app/
 - Tutorials repository GitLab: https://git.cs.dal.ca/ppmodi/csci_5709_Tutorials
 - Tutorial 3:
 
