@@ -1,0 +1,12 @@
+.form {
+  display: flex;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.form > div {
+  width: 100%;
+}
