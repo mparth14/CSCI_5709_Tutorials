@@ -9,3 +9,17 @@
 # Authors
 
 Parth Pinakin Modi: pr571545@dal.ca
+
+# Endpoints
+
+- GET /users -
+  Retrieves all users.
+
+- PUT /update/:id -
+  Updates an existing user by ID.
+
+- POST /add -
+  Adds a new user.
+
+- GET /user/:id -
+  Retrieves a single user by ID.
