@@ -2,7 +2,7 @@ const express = require('express');
 const { MongoClient, ObjectId } = require('mongodb');
 
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Connection URI
 const uri =
