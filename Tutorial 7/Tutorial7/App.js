@@ -19,15 +19,18 @@ app.use(express.json());
 
 // Function to connect to MongoDB
 async function connectToMongoDB() {
-  const client = new MongoClient(uri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
+const client = new MongoClient(uri, {
+    serverApi: {
+      version: ServerApiVersion.v1,
+      strict: true,
+      deprecationErrors: true,
+    }
   });
 
   try {
     // Connect to the MongoDB cluster
     await client.connect();
-
+    await client.db("admin").command({ ping: 1 });
     console.log('Connected to MongoDB Atlas');
 
     return client.db(dbName).collection(collectionName);
