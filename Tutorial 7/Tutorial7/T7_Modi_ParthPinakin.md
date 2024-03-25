@@ -4,6 +4,7 @@ Welcome to Tutorial 7! This tutorial covers a User Management API deployed on Re
 
 ## Deployment
 - Render Deployment: [Tutorial 7 Deployment](https://tutorial7-tdt2.onrender.com/)
+- Please allow upto 1 minute for the deployment server to become active.
 
 ## Repositories
 - Tutorials Repository (GitLab): [CSCI 5709 Tutorials on GitLab](https://git.cs.dal.ca/ppmodi/csci_5709_Tutorials)
