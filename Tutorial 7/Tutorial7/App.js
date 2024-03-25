@@ -1,5 +1,5 @@
 const express = require('express');
-const { MongoClient, ObjectId } = require('mongodb');
+const { MongoClient, ObjectId, ServerApiVersion } = require('mongodb'); // Import ServerApiVersion
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -19,7 +19,7 @@ app.use(express.json());
 
 // Function to connect to MongoDB
 async function connectToMongoDB() {
-const client = new MongoClient(uri, {
+  const client = new MongoClient(uri, {
     serverApi: {
       version: ServerApiVersion.v1,
       strict: true,
@@ -39,6 +39,7 @@ const client = new MongoClient(uri, {
     throw error;
   }
 }
+
 
 // Create a user
 // Create a user
