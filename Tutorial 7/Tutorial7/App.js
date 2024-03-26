@@ -40,8 +40,11 @@ async function connectToMongoDB() {
   }
 }
 
+app.get('/', async (req, res) => {
+  res.status(200).send("App is running");
+});
 
-// Create a user
+
 // Create a user
 app.post('/create', async (req, res) => {
   const userData = req.body;
